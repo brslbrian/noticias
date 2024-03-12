@@ -1,4 +1,4 @@
-const botaoAbrir = document.querySelector(".header-mobile>button")
+const botaoAbrir = document.querySelector(".header-mobile > button")
 const botaoFechar = document.querySelector(".header-mobile nav button")
 
 const body = document.querySelector("body")
@@ -15,4 +15,4 @@ function abrirMenu() {
 function fecharMenu() {
     body.classList.remove("escurecer")
     nav.classList.remove("abrir")
-}
+} 
